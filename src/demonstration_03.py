@@ -9,5 +9,7 @@ Examples:
 - string_int("12") ➞ 12
 """
 def string_int(txt):
-    # Your code here
+    return int(txt)
+​
+print(string_int("123"))
 
